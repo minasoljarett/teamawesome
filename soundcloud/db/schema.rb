@@ -11,15 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150202230548) do
+ActiveRecord::Schema.define(version: 20150202233059) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "tracks", force: true do |t|
     t.string  "title"
-    t.text    "permalink"
-    t.text    "url"
+    t.text    "permalink_url"
     t.text    "description"
     t.text    "avatar_url"
     t.integer "user_id"
