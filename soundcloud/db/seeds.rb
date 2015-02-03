@@ -9,4 +9,4 @@ User.create({name: "Sol Cameron", email: "my_email@address.com", password_digest
 User.create({name: "Mina Talai", email: "minas_email@address.com", password_digest: "tilai", location: "queens", favorite_artist: "Nas"})
 User.create({name: "Jarett Sims", email: "jarett_email@address.com", password_digest: "sims", location: "manhattan", favorite_artist: "Biggie"})
 
-Track.create({title: , permalink_url: , description: , avatar_url: , user_id: })
+# Track.create({title: , permalink_url: , description: , avatar_url: , user_id: })
