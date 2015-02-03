@@ -7,7 +7,9 @@
 	<h1>Sign Up for Soundcloud!</h1>
 
 	<form method="POST" action="/users">
-		<input type="" name="name" placeholder="name" />
+		<input name="authenticity_token" value="<%= form_authenticiy_token %>" type="hidden"> 
+		
+		<input type="text" name="name" placeholder="name" />
 		<input type="text" name="email" placeholder="email" />
 		<input type="password" name="password" placeholder="password" />
 		<input type="text" name="location" placeholder="location" />

@@ -4,6 +4,7 @@ class UsersController < ApplicationController
 	end
 
 	def create
+		binding.pry
 		User.create({
 		 	name: params["name"],
 			email: params["email"],
